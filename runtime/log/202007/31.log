@@ -1,0 +1,2427 @@
+---------------------------------------------------------------
+[ 2020-07-31T14:25:05+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected '...' (T_ELLIPSIS), expecting ')'
+---------------------------------------------------------------
+[ 2020-07-31T14:25:41+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected '...' (T_ELLIPSIS), expecting ')'
+---------------------------------------------------------------
+[ 2020-07-31T14:25:44+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected '...' (T_ELLIPSIS), expecting ')'
+---------------------------------------------------------------
+[ 2020-07-31T14:25:45+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected '...' (T_ELLIPSIS), expecting ')'
+---------------------------------------------------------------
+[ 2020-07-31T14:25:55+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected '...' (T_ELLIPSIS), expecting ')'
+---------------------------------------------------------------
+[ 2020-07-31T14:26:19+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user?addtabs=1
+[运行时间：0.025511s] [吞吐率：39.20req/s] [内存消耗：2,364.53kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001042s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000877s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '...' (T_ELLIPSIS), expecting ')'[D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php:113]
+---------------------------------------------------------------
+[ 2020-07-31T14:26:33+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user?addtabs=1
+[运行时间：0.051985s] [吞吐率：19.24req/s] [内存消耗：4,228.89kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001034s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000188s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001099s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\view\user\user\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000117s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:26:33+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/ajax/lang?callback=define&controllername=user.user&v=1596176793
+[运行时间：0.049973s] [吞吐率：20.01req/s] [内存消耗：4,244.49kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001091s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000201s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user.user',
+  'v' => '1596176793',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000953s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000125s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:26:33+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1596176793666
+[运行时间：0.061044s] [吞吐率：16.38req/s] [内存消耗：4,343.27kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001422s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000390s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'user.id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1596176793666',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001508s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000120s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:26:37+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.180459s] [吞吐率：5.54req/s] [内存消耗：4,363.50kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001089s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryK4RZMxDoyY7SGF32',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000879s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.125304s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:26:38+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.091358s] [吞吐率：10.95req/s] [内存消耗：4,238.56kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001048s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000192s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000978s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:27:15+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.163911s] [吞吐率：6.10req/s] [内存消耗：4,363.50kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001098s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000194s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryF9T1tZpBzATVK9fJ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000858s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.116983s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:27:15+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.053813s] [吞吐率：18.58req/s] [内存消耗：4,287.27kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002101s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000306s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001067s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'PHPExcel_Reader_Excel2007' not found[D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php:40]
+---------------------------------------------------------------
+[ 2020-07-31T14:45:21+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.190065s] [吞吐率：5.26req/s] [内存消耗：4,363.50kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001488s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000328s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJZ0bkoj6b6kzM9WE',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000991s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.136620s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:45:21+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.324320s] [吞吐率：3.08req/s] [内存消耗：7,862.34kb] [文件加载：189]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001453s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000338s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001115s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.048185s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:45:22+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1596176793667
+[运行时间：0.059445s] [吞吐率：16.82req/s] [内存消耗：4,335.09kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001493s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000351s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'user.id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1596176793667',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000968s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000187s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:46:19+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.168889s] [吞吐率：5.92req/s] [内存消耗：4,363.50kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001032s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000194s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryymjHd16cY3fqwTA3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001238s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.115317s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:46:19+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.056503s] [吞吐率：17.70req/s] [内存消耗：4,219.09kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001429s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000296s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000974s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:47:20+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.200719s] [吞吐率：4.98req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001259s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000314s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytlBex7N1q2thJ7na',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000935s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.144828s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:47:20+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.049648s] [吞吐率：20.14req/s] [内存消耗：5,078.48kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001161s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000208s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000990s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:47:35+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.226996s] [吞吐率：4.41req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001500s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000292s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9hHO2OGNuvOx7SHA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002273s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.143939s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:47:35+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.170443s] [吞吐率：5.87req/s] [内存消耗：5,078.52kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002299s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000521s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001295s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:49:17+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.192264s] [吞吐率：5.20req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001493s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000300s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBbRO2bYu3nIzFALd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001017s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.130964s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:49:17+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.058151s] [吞吐率：17.20req/s] [内存消耗：5,078.52kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001422s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000324s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001003s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:49:25+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.102745s] [吞吐率：9.73req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001049s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000198s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjKjoQd7J2VXtt4YU',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001161s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.054149s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:49:25+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.094874s] [吞吐率：10.54req/s] [内存消耗：7,902.48kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001904s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000389s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001255s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:49:40+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.226483s] [吞吐率：4.42req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001369s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000215s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4apgW6Tg13j9oBR4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000919s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.167700s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:49:40+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.307537s] [吞吐率：3.25req/s] [内存消耗：7,909.77kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001965s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000645s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001032s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:50:12+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.195995s] [吞吐率：5.10req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001346s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000311s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryM416S76nkcF403qG',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000968s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.134735s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T14:50:12+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.083330s] [吞吐率：12.00req/s] [内存消耗：7,902.85kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001079s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000234s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000915s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:08:37+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.196731s] [吞吐率：5.08req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001342s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000307s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLtcmviwBR3qbB4Cf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001040s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.144147s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:08:37+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.054935s] [吞吐率：18.20req/s] [内存消耗：4,288.95kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001718s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000850s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001069s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\admin\controller\user\Xls' not found[D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php:66]
+---------------------------------------------------------------
+[ 2020-07-31T15:09:19+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.181927s] [吞吐率：5.50req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001369s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000302s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDA0tm3s1ttVgBY4e',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.127422s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:09:19+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.086109s] [吞吐率：11.61req/s] [内存消耗：7,943.80kb] [文件加载：188]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001106s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000210s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001193s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\admin\controller\user\Coordinate' not found[D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php:82]
+---------------------------------------------------------------
+[ 2020-07-31T15:09:30+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.071966s] [吞吐率：13.90req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001034s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000192s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydwgo4IYktncCCwZf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000870s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.026771s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:09:30+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.081881s] [吞吐率：12.21req/s] [内存消耗：7,930.77kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001100s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000430s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000927s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:09:55+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.178506s] [吞吐率：5.60req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001016s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000210s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBLwv7gHAMQcsQAGG',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000866s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.121154s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:09:55+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.073221s] [吞吐率：13.66req/s] [内存消耗：7,931.13kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001047s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000380s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/0a6d2f73214d287e1ca4f6eaf8654d7f.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000869s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:11:22+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.166742s] [吞吐率：6.00req/s] [内存消耗：4,363.92kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001395s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000343s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoOiMFTyEsMMp5eBj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000997s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.044800s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:11:22+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.092034s] [吞吐率：10.87req/s] [内存消耗：7,931.55kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001368s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000310s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/ff9720ecbd7e2929c63bb40cf31cb0bf.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000981s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:11:44+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/ajax/upload
+[运行时间：0.429987s] [吞吐率：2.33req/s] [内存消耗：4,364.11kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001345s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000291s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfMmiWR1nZjS1cRAU',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '22315',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '导入.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000970s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.239467s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T15:11:44+08:00 ] 127.0.0.1 POST www.tpexample.com/public/admin.php/user/user/import
+[运行时间：0.072380s] [吞吐率：13.82req/s] [内存消耗：7,937.09kb] [文件加载：184]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001276s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000213s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'import',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/user/user?addtabs=1',
+  'origin' => 'http://www.tpexample.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '65',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+)
+[ info ] [ PARAM ] array (
+  'file' => '/uploads/20200731/ff9720ecbd7e2929c63bb40cf31cb0bf.xls',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000871s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/user/user.php
+[ info ] [ RUN ] app\admin\controller\user\User->import[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\user\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:29+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php
+[运行时间：0.079707s] [吞吐率：12.55req/s] [内存消耗：4,543.34kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001741s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000363s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001055s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000204s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:29+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/dashboard?addtabs=1
+[运行时间：0.051864s] [吞吐率：19.28req/s] [内存消耗：4,261.31kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001414s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000307s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001036s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000203s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:30+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/ajax/lang?callback=define&controllername=index&v=1596183509
+[运行时间：0.052566s] [吞吐率：19.02req/s] [内存消耗：4,246.30kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002704s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000490s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1596183509',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001406s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000198s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:30+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1596183509
+[运行时间：0.043003s] [吞吐率：23.25req/s] [内存消耗：4,244.66kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001043s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000191s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1596183509',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000936s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000128s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:33+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/auth/rule?addtabs=1
+[运行时间：0.051301s] [吞吐率：19.49req/s] [内存消耗：4,661.77kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001164s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000195s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000853s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\auth\Rule.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\view\auth\rule\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:33+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1596183513
+[运行时间：0.040271s] [吞吐率：24.83req/s] [内存消耗：4,242.84kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001064s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000216s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1596183513',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000862s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000145s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:33+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/auth/rule/index?sort=weigh&order=desc&_=1596183513433
+[运行时间：0.046281s] [吞吐率：21.61req/s] [内存消耗：4,488.84kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001042s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000194s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1596183513433',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000874s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->index[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\auth\Rule.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000126s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:40+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/auth/rule/add?dialog=1
+[运行时间：0.061001s] [吞吐率：16.39req/s] [内存消耗：4,699.21kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001175s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000262s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000891s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->add[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\auth\Rule.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\view\auth\rule\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000176s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:41+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1596183520
+[运行时间：0.055165s] [吞吐率：18.13req/s] [内存消耗：4,243.06kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001872s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000213s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule/add?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1596183520',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000869s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000316s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:59+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/auth/rule/add?dialog=1
+[运行时间：0.058662s] [吞吐率：17.05req/s] [内存消耗：4,480.73kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001234s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000208s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth.rule',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule?addtabs=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000916s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ RUN ] app\admin\controller\auth\Rule->add[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\auth\Rule.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\view\auth\rule\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'ruledata',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000136s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-31T16:18:59+08:00 ] 127.0.0.1 GET www.tpexample.com/public/admin.php/ajax/lang?callback=define&controllername=auth.rule&v=1596183539
+[运行时间：0.053973s] [吞吐率：18.53req/s] [内存消耗：4,243.06kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001278s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000532s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tp0bkbb93hph8a3rki3rh3rr5n; keeplogin=1%7C86400%7C1596261994%7C07219f848e4637f3ab948629a7d5fedb',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpexample.com/public/admin.php/auth/rule/add?dialog=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.tpexample.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'auth.rule',
+  'v' => '1596183539',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000887s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\tpexample\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\tpexample\public/../application/admin/lang/zh-cn/auth/rule.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000135s ]
+[ info ] [ LOG ] INIT File
